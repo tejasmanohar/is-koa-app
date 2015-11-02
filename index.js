@@ -5,5 +5,5 @@
  */
 
 module.exports = function(app) {
-	return app && app.context && app.response && app.request
+  return app && app.context && app.response && app.request
 }
