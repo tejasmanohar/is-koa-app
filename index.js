@@ -4,6 +4,6 @@
  * via duck typing
  */
 
-export default function() {
+export default function(app) {
   return app && app.context && app.response && app.request
 }
